@@ -1,3 +1,27 @@
-table{
-    border: 100px;
+
+th{
+    height: 10px;
+    width: 350px;
+
+   
 }
+
+input{
+    height: 70px;
+    width: 350px;
+    font-size: large;
+    
+    
+}
+
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+textarea{
+  font-size: larger;
+ 
+}
+
