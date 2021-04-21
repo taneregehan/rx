@@ -1,0 +1,93 @@
+.giris{
+
+    width:700px;
+    
+    background-color:#AC0146;
+    
+    padding-left:25px;
+    
+    padding-right:25px;
+    
+    padding-top:10px;
+    
+    padding-bottom:10px;
+    
+    
+    
+    }
+    
+    .ana{
+    
+    width:700px;
+    
+    background-color:blue;
+    
+    padding:25px;
+    
+    
+    
+    
+    }
+    
+    
+    
+    .font{
+    
+    float:left;
+    
+    color:#fff;
+    
+    text-shadow:0px 3px 5px #000;
+    
+    
+    
+    }
+    
+    .fontt{
+    
+    color:#fff;
+    
+    
+    
+    }
+    
+    .kutu{
+    
+    float:center;
+    
+    border: 2px dotted #AC0146;
+    
+    }
+    
+    .temizsag{
+    
+    clear:right;
+    
+    }
+    
+    
+    
+    .temizsol{
+    
+    clear:left;
+    
+    }
+    
+    
+    
+    .buton{
+    
+    color:#fff;
+    background-color:#AC0146;
+    border: 2px dotted #AC0146;
+    cursor:pointer;
+    
+    }
+    
+    
+    
+    .buton:hover{
+    
+    background-color:green;
+    
+    }
