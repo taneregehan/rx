@@ -1,85 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-reçete</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Reçete</title>
+    </head>
 <body>
-   <h3>REÇETE</h3>
-    <table border="2">
-
-<tr>
-<TH>ADI SOYADI
-    <input type="text">
-</TH>                              
-
-<TH>TARİH
-    <input type="date">
-</TH>
-
-</tr>
-
-
-
-
-
-
-
-
-
-<tr >
-
-    <TH>KİMLİK NUMARASI
-        <input type="text">
-    </TH>
-</tr>
-
-
-
-
-
-<tr>
-    <TH>PROTOKOL NUMARASI
-        <input type="text">
-    </TH>
-</tr>
-
-
-
-
-<tr>
-
-    <TH>TANI
-        <input type="text">
-    </TH>
-</tr>
-
-
-
-
-<tr style="line-height: 70px;"> 
-    
-    <th colspan="2">
-        <h2>İLAÇLAR</h2>
-       
-       <textarea name="text" id="text" cols="70" rows="20"></textarea>
-   
-    </th>
-
-</tr>
-
-
-
-
-
-
-
-
-
-
+    <h2>REÇETE</h2>
+    <table>
+        <tr>
+            <td>Adı, soyadı</td>
+            <td>Tarih</td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Kimlik numarası</td>
+            <td rowspan="6"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Protokol numarası</td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Tanı</td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th colspan="2">İlaçlar</th>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea rows="20"></textarea></td>
+        </tr>
     </table>
 </body>
+<p><button onclick="javascript:window.print()" class="print-button">Yazdır</button></p>
 </html>
